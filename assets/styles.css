@@ -3,9 +3,11 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   font-size: 16px;
 }
+
 :root {
   --body-color: #7f8c8d;
   --overlay-color: #000000b3;
@@ -28,14 +30,14 @@ nav {
 
 .ind-flag {
   width: 15px;
-  margin-left: 320px;
+  margin-left: 448px;
 }
 
 .nav-list {
   list-style: none;
 }
 
-li {
+nav li {
   float: left;
   margin-left: 34px;
 }
@@ -214,65 +216,81 @@ h4 > .pocket-desc-margin {
   font-size: 50px;
   text-align: center;
 }
+
 .pokemon-of-the-year-section h4 {
   font-size: 30px;
   text-align: center;
   color: darkslategray;
   font-weight: 450;
-  margin-top: 20px;
 }
+
 .pokemon-of-the-year-section h6 {
   font-size: 18px;
   text-align: center;
   color: var(--body-color);
   font-weight: 400;
 }
+
 .pokemon-pic {
   width: 55%;
 }
+
 .pok-logo {
   width: 50%;
   margin-bottom: 60px;
   margin-top: 5px;
 }
 
+.pok-table-body {
+  vertical-align: top;
+}
+
 .pok-desc {
   text-align: left;
   color: var(--body-color);
 }
+
 .center {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
   text-align: center;
+  border-spacing: 0 1.5em;
 }
+
 .QandA-section {
   background-color: var(--blue);
   padding: 60px 200px;
   color: white;
   text-align: left;
-  height: 500px;
 }
+
 #q-and-a {
   text-align: center;
   font-size: 45px;
   margin-bottom: 20px;
 }
+
 .pok-ques p {
   font-weight: bolder;
   margin-bottom: 20px;
 }
-.ques-1 {
+
+.q {
   font-weight: bolder;
   margin-bottom: 2px;
 }
 
-.ques-2 {
-  font-weight: bolder;
-  margin-bottom: 2px;
+.ques ol {
+  padding-left: 1em;
 }
-ol > li {
-  margin-bottom: 50px;
+
+.ques ol ul:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.ques ol ul li {
+  margin-left: 5em;
 }
 .know-more-section > h2 {
   font-size: 45px;
