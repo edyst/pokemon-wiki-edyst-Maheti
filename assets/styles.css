@@ -305,6 +305,7 @@ h4 > .pocket-desc-margin {
 
 .pok-battle-intro h3 {
   padding: 20px 0;
+  font-size: 18px;
 }
 
 .pok-battle-intro {
@@ -320,20 +321,22 @@ h4 > .pocket-desc-margin {
 .pok-battle-desc-left {
   flex: 1;
 }
-
+.pok-battle-desc-left h3 {
+  font-size: 15px;
+}
 .pok-battle-desc-left p {
   color: #8a8a8a;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-right: 30px;
+  line-height: 1.5;
 }
 
 .pok-battle-desc-right {
   flex: 2;
 }
 
-.pok-battle-desc-right table,
-th,
-td {
+.battle-table td,
+th {
   padding: 10px;
   text-align: start;
   border-collapse: collapse;
@@ -346,6 +349,7 @@ td {
 
 .pok-battle-desc-right p {
   margin-top: 10px;
+  font-size: 15px;
 }
 
 .pok-battle-end {
@@ -364,9 +368,9 @@ td {
   background-color: var(--blue);
   color: white;
   border: none;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 500;
-  padding: 10px 80px;
+  padding: 10px 70px;
 }
 
 .know-more-section {
@@ -387,9 +391,9 @@ td {
   text-align: center;
   border: 2px solid white;
   color: white;
-  font-size: 25px;
-  font-weight: 500;
-  padding: 13px 66px;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 12px 80px;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
@@ -456,4 +460,87 @@ td {
   padding: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.know-more2 {
+  background-color: var(--blue);
+  color: #fff;
+}
+
+.know-more2 > h3 {
+  font-size: 45px;
+  color: #fff;
+  text-align: center;
+  padding: 25px 0 40px 0;
+}
+
+.know-more2 > button {
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 2px solid white;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 12px 80px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-bottom: 30px;
+}
+
+.logos img {
+  width: 150px;
+  padding: 6px 100px;
+}
+.logos h3 {
+  text-align: center;
+  font-size: 45px;
+  color: grey;
+}
+.logos p {
+  text-align: center;
+  color: var(--very-dark-gray);
+  font-size: 14px;
+  font-weight: 450;
+  margin-top: 10px;
+}
+
+.logo-imgs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-left {
+  display: flex;
+}
+.logo-center {
+  display: flex;
+}
+.logo-right {
+  display: flex;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+}
+.footer ul {
+  list-style: none;
+}
+
+.footer1 {
+  display: flex;
+}
+.footer2 {
+  display: flex;
+}
+.footer3 {
+  display: flex;
+}
+.footer4 {
+  display: flex;
 }
