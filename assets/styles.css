@@ -274,3 +274,21 @@ h4 > .pocket-desc-margin {
 ol > li {
   margin-bottom: 50px;
 }
+.know-more-section > h2 {
+  font-size: 45px;
+  color: #fff;
+  background-color: var(--very-dark-gray);
+  text-align: center;
+  padding: 50px 50px 100px 50px;
+}
+.know-more-section > button {
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.card-section h3 {
+  text-align: center;
+  color: var(--body-color);
+  font-size: 40px;
+}
