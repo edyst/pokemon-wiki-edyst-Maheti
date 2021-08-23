@@ -256,6 +256,7 @@ h4 > .pocket-desc-margin {
   width: 90%;
   text-align: center;
   border-spacing: 0 1.5em;
+  margin-top: 10px;
 }
 
 .QandA-section {
@@ -276,11 +277,6 @@ h4 > .pocket-desc-margin {
   margin-bottom: 20px;
 }
 
-.q {
-  font-weight: bolder;
-  margin-bottom: 2px;
-}
-
 .ques ol {
   padding-left: 1em;
 }
@@ -288,9 +284,15 @@ h4 > .pocket-desc-margin {
 .ques ol ul:not(:last-child) {
   margin-bottom: 1em;
 }
+.ques ul li {
+  font-weight: 370;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 2px;
+}
 
 .ques ol ul li {
-  margin-left: 5em;
+  margin-left: 6em;
 }
 .know-more-section > h2 {
   font-size: 45px;
@@ -309,4 +311,57 @@ h4 > .pocket-desc-margin {
   text-align: center;
   color: var(--body-color);
   font-size: 40px;
+}
+.pokemon-trainer-section {
+  background-color: var(--blue);
+  color: #fff;
+}
+.pokemon-trainer-section h3 {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.pokemon-trainer-section h4 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.pokemon-trainer-section h6 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 390;
+}
+
+.pokemon-trainer-pic {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.pok-logo {
+  width: 50%;
+  margin-bottom: 60px;
+  margin-top: 5px;
+}
+
+.pok-table-body {
+  vertical-align: top;
+}
+
+.pok-desc2 {
+  text-align: left;
+  color: white;
+  font-size: 14px;
+  font-weight: 350;
+}
+.trainer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
