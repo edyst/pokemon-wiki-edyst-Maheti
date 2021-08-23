@@ -294,28 +294,119 @@ h4 > .pocket-desc-margin {
 .ques ol ul li {
   margin-left: 6em;
 }
+
+.pok-battle-section {
+  padding: 60px 200px;
+}
+
+.pok-battle-section h2 {
+  font-size: 45px;
+}
+
+.pok-battle-intro h3 {
+  padding: 20px 0;
+}
+
+.pok-battle-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pok-battle-desc {
+  display: flex;
+}
+
+.pok-battle-desc-left {
+  flex: 1;
+}
+
+.pok-battle-desc-left p {
+  color: #8a8a8a;
+  margin-top: 40px;
+  margin-right: 30px;
+}
+
+.pok-battle-desc-right {
+  flex: 2;
+}
+
+.pok-battle-desc-right table,
+th,
+td {
+  padding: 10px;
+  text-align: start;
+  border-collapse: collapse;
+  border: solid 1px #cecece;
+}
+
+.pok-battle-desc-right td {
+  color: #8a8a8a;
+}
+
+.pok-battle-desc-right p {
+  margin-top: 10px;
+}
+
+.pok-battle-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pok-battle-end p {
+  color: var(--blue);
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.pok-battle-end button {
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px 80px;
+}
+
+.know-more-section {
+  background-color: var(--very-dark-gray);
+}
+
 .know-more-section > h2 {
   font-size: 45px;
   color: #fff;
-  background-color: var(--very-dark-gray);
   text-align: center;
-  padding: 50px 50px 100px 50px;
+  padding: 50px 0 20px 0;
 }
+
 .know-more-section > button {
   background-color: transparent;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  border: 2px solid white;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 13px 66px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-bottom: 75px;
 }
+
 .card-section h3 {
   text-align: center;
   color: var(--body-color);
   font-size: 40px;
 }
+
 .pokemon-trainer-section {
   background-color: var(--blue);
   color: #fff;
 }
+
 .pokemon-trainer-section h3 {
   font-size: 40px;
   text-align: center;
@@ -356,6 +447,7 @@ h4 > .pocket-desc-margin {
   font-size: 14px;
   font-weight: 350;
 }
+
 .trainer {
   margin-left: auto;
   margin-right: auto;
