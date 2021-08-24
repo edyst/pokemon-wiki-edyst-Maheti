@@ -654,11 +654,13 @@ h3 {
   width: 150px;
   padding: 6px 100px;
 }
+
 .logos h3 {
   text-align: center;
   font-size: 45px;
   color: grey;
 }
+
 .logos p {
   text-align: center;
   color: var(--very-dark-gray);
@@ -672,35 +674,45 @@ h3 {
   flex-direction: column;
   align-items: center;
 }
+
 .logo-left {
   display: flex;
 }
+
 .logo-center {
   display: flex;
 }
+
 .logo-right {
   display: flex;
 }
-.footer {
+
+footer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
   background-color: black;
   color: #fff;
-}
-.footer ul {
-  list-style: none;
+  font-weight: 500;
+  padding: 25px 0;
 }
 
-.footer1 {
-  display: flex;
+footer p {
+  color: #4a5662;
 }
-.footer2 {
-  display: flex;
+
+footer ul {
+  list-style: none;
+  text-align: center;
 }
-.footer3 {
+
+.footer-desc {
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 70px;
 }
-.footer4 {
-  display: flex;
+
+.footer-desc a {
+  color: white;
+  text-decoration: none;
 }
