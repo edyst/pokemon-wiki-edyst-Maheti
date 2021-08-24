@@ -539,6 +539,7 @@ th {
   padding-right: 100px;
   padding-left: 20px;
   font-size: 20px;
+  margin-right: 10px;
 }
 
 .input-section button {
@@ -548,6 +549,36 @@ th {
   padding: 0 100px;
   font-weight: 500;
   font-size: 20px;
+}
+
+.games-section {
+  padding: 60px 200px;
+}
+
+.games-section h2 {
+  font-size: 45px;
+  color: var(--body-color);
+  text-align: center;
+}
+
+.games-section img {
+  height: 200px;
+}
+
+.games-section p,
+h3 {
+  text-align: center;
+}
+
+.games-section button {
+  position: relative;
+  left: 50%;
+  transform: translate(50%, 0);
+}
+
+.games-desc {
+  display: flex;
+  justify-content: center;
 }
 
 .pok-logo {
