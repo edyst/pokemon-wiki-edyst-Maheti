@@ -516,6 +516,40 @@ th {
   letter-spacing: 2px;
 }
 
+.input-section {
+  background-color: var(--overlay-color);
+}
+
+.input-section h2 {
+  font-size: 45px;
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.input-section div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.input-section input {
+  padding: 15px 0;
+  padding-right: 100px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.input-section button {
+  background-color: transparent;
+  color: white;
+  border: solid 2px white;
+  padding: 0 100px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
 .pok-logo {
   width: 50%;
   margin-bottom: 60px;
