@@ -345,6 +345,7 @@ th {
 
 .pok-battle-desc-right td {
   color: #8a8a8a;
+  border-collapse: collapse;
 }
 
 .pok-battle-desc-right p {
@@ -400,10 +401,46 @@ th {
   margin-bottom: 75px;
 }
 
+.card-section {
+  padding: 35px 0;
+}
+
 .card-section h3 {
   text-align: center;
   color: var(--body-color);
   font-size: 40px;
+}
+
+.card-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 40%;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 40px;
+  border-top: 10px solid var(--blue);
+  border-left: 1px solid #cecece;
+  border-right: 1px solid #cecece;
+  border-bottom: 1px solid #cecece;
+}
+
+.card-content p:first-child {
+  color: var(--body-color);
+  padding-top: 10px;
+}
+
+.card-content p:last-child {
+  padding-bottom: 10px;
+}
+
+.card-p {
+  padding: 20px 30px;
+  text-align: center;
 }
 
 .pokemon-trainer-section {
@@ -411,8 +448,8 @@ th {
   color: #fff;
 }
 
-.pokemon-trainer-section h3 {
-  font-size: 40px;
+.pokemon-trainer-section h2 {
+  font-size: 45px;
   text-align: center;
   color: #fff;
   padding-top: 30px;
@@ -433,6 +470,50 @@ th {
 .pokemon-trainer-pic {
   width: 150px;
   border-radius: 50%;
+}
+
+.pokemon-generation-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 200px;
+}
+
+.pokemon-generation-section h2 {
+  font-size: 45px;
+  color: var(--body-color);
+  padding-bottom: 10px;
+}
+
+.pokemon-generation-section h4 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.generation-container {
+  display: flex;
+}
+
+.generation-desc {
+  flex: 1;
+  padding: 10px 10px;
+}
+
+.generation-desc div:first-child {
+  border-top: solid 15px var(--blue);
+  border-left: solid 1px #cecece;
+  border-right: solid 1px #cecece;
+  padding: 25px 10px;
+}
+
+.generation-desc div:last-child {
+  border: solid 1px #cecece;
+  height: 300px;
+}
+
+.generation-desc div:last-child p {
+  padding: 25px 10px;
+  letter-spacing: 2px;
 }
 
 .pok-logo {
