@@ -339,7 +339,6 @@ h4 > .pocket-desc-margin {
 th {
   padding: 10px;
   text-align: start;
-  border-collapse: collapse;
   border: solid 1px #cecece;
 }
 
@@ -402,7 +401,7 @@ th {
 }
 
 .card-section {
-  padding: 35px 0;
+  padding: 38px 0;
 }
 
 .card-section h3 {
@@ -415,7 +414,7 @@ th {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 40%;
+  padding: 0 42%;
 }
 
 .card-content {
@@ -423,10 +422,11 @@ th {
   flex-direction: column;
   align-items: center;
   padding: 0 40px;
-  border-top: 10px solid var(--blue);
-  border-left: 1px solid #cecece;
-  border-right: 1px solid #cecece;
-  border-bottom: 1px solid #cecece;
+  border-top: 15px solid var(--blue);
+  border-left: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  background-color: whitesmoke;
 }
 
 .card-content p:first-child {
@@ -439,8 +439,14 @@ th {
 }
 
 .card-p {
-  padding: 20px 30px;
+  padding: 25px 22px;
   text-align: center;
+  font-size: 14px;
+  font-weight: 401;
+  background-color: white;
+  border-left: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 .pokemon-trainer-section {
@@ -454,17 +460,18 @@ th {
   color: #fff;
   padding-top: 30px;
 }
-
 .pokemon-trainer-section h4 {
   font-size: 30px;
   text-align: center;
   font-weight: 400;
+  color: white;
 }
 
 .pokemon-trainer-section h6 {
   font-size: 18px;
   text-align: center;
   font-weight: 390;
+  color: white;
 }
 
 .pokemon-trainer-pic {
@@ -472,59 +479,65 @@ th {
   border-radius: 50%;
 }
 
-.pokemon-generation-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 60px 200px;
-}
-
-.pokemon-generation-section h2 {
+.generation-section {
+  color: #8a8a8a;
   font-size: 45px;
-  color: var(--body-color);
-  padding-bottom: 10px;
+  text-align: center;
+  margin-bottom: 50px;
 }
-
-.pokemon-generation-section h4 {
-  font-size: 30px;
-  padding-bottom: 30px;
-}
-
-.generation-container {
+.cards_container {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.generation-desc {
-  flex: 1;
-  padding: 10px 10px;
+.gen-card {
+  width: 478px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin-right: 6px;
+  margin-left: 6px;
+  line-height: 24px;
+  margin-top: -35px;
+  margin-bottom: -18px;
+}
+.card-text {
+  padding: 5px 8px 18px 8px;
+  font-weight: 401;
+}
+.card-sub-heading {
+  font-weight: 700;
+  height: 60px;
+  color: #3c3333;
+  text-align: left;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 15px 8px;
 }
 
-.generation-desc div:first-child {
-  border-top: solid 15px var(--blue);
-  border-left: solid 1px #cecece;
-  border-right: solid 1px #cecece;
-  padding: 25px 10px;
+.card-body {
+  padding: 10px;
 }
 
-.generation-desc div:last-child {
-  border: solid 1px #cecece;
-  height: 300px;
-}
-
-.generation-desc div:last-child p {
-  padding: 25px 10px;
-  letter-spacing: 2px;
+.card-header {
+  margin-bottom: 0;
+  padding-left: 10px;
+  border-bottom: 1px rgba(0, 0, 0, 0.125) solid;
+  border-top: 17px #4992ca solid;
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
 .input-section {
-  background-color: var(--overlay-color);
+  background-color: #424242;
 }
 
 .input-section h2 {
-  font-size: 45px;
+  font-size: 40px;
   text-align: center;
   color: white;
-  padding-top: 40px;
+  padding-top: 60px;
   padding-bottom: 20px;
 }
 
@@ -535,20 +548,21 @@ th {
 }
 
 .input-section input {
-  padding: 15px 0;
-  padding-right: 100px;
-  padding-left: 20px;
-  font-size: 20px;
-  margin-right: 10px;
+  padding: 13px 0;
+  padding-right: 150px;
+  padding-left: 7px;
+  font-size: 13px;
+  margin-right: 8px;
+  margin-left: 20px;
 }
 
 .input-section button {
   background-color: transparent;
   color: white;
   border: solid 2px white;
-  padding: 0 100px;
+  padding: 0 80px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .games-section {
