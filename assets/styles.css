@@ -30,16 +30,23 @@ nav {
 
 .ind-flag {
   width: 15px;
-  margin-left: 448px;
+  margin-left: 330px;
+  float: right;
+  padding-right: 5px;
 }
 
 .nav-list {
   list-style: none;
-}
-
-nav li {
   float: left;
-  margin-left: 34px;
+  margin-right: 60px;
+}
+.nav-list li {
+  text-align: left;
+  padding: 0 45px 0 0;
+  display: inline-block;
+}
+.nav-list li:last-child {
+  padding-right: 5px;
 }
 
 .li-first a {
@@ -54,13 +61,17 @@ nav li {
   color: #808080;
 }
 
-.li-btn {
+nav > button {
   background-color: #de703b;
   padding: 2px 33px;
+  border: none;
+  margin-right: 10px;
 }
 
-.li-btn a {
+.nav-btn a {
   color: white;
+  text-decoration: none;
+  font-size: 13px;
 }
 
 li a {
@@ -492,6 +503,7 @@ th {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+  align-items: flex-stretch;
 }
 
 .gen-card {
@@ -566,13 +578,17 @@ th {
 }
 
 .games-section {
-  padding: 60px 200px;
+  padding: 18px 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .games-section h2 {
-  font-size: 45px;
+  font-size: 40px;
   color: var(--body-color);
   text-align: center;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 .games-section img {
@@ -586,15 +602,70 @@ h3 {
 
 .games-section button {
   position: relative;
-  left: 50%;
+  left: 29%;
+  color: white;
+  padding: 12px 32px;
+  background-color: var(--blue);
   transform: translate(50%, 0);
+  font-size: 15px;
+  width: 200px;
+  text-align: center;
+  border: none;
+  margin: 30px 4px 0 4px;
 }
 
 .games-desc {
   display: flex;
   justify-content: center;
+  margin-right: 90px;
+}
+.games-desc h3,
+i {
+  font-size: 15px;
+  padding: 7px 2px;
+  text-align: center;
+}
+.games-desc p {
+  text-align: center;
+  font-size: 14px;
+  padding: 3px 6px 11px 6px;
+  font-weight: 401;
 }
 
+.designer-section {
+  background-color: var(--blue);
+  color: white;
+}
+.designer-section h3 {
+  font-size: 45px;
+  text-align: center;
+  padding: 30px 20px 20px 20px;
+}
+
+.designer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 80px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.design-desc {
+  padding: 0 10px 25px 10px;
+}
+.design-desc > p > img {
+  width: 150px;
+  border-radius: 50%;
+}
+.designer-name {
+  font-size: 28px;
+  padding: 2px;
+}
+.design-desc p:last-child {
+  font-size: 14px;
+  padding: 2px;
+  text-align: left;
+}
 .pok-logo {
   width: 50%;
   margin-bottom: 60px;
@@ -651,7 +722,7 @@ h3 {
 }
 
 .logos img {
-  width: 150px;
+  width: 125px;
   padding: 6px 100px;
 }
 
@@ -659,6 +730,8 @@ h3 {
   text-align: center;
   font-size: 45px;
   color: grey;
+  padding: 10px 2px;
+  margin-top: 15px;
 }
 
 .logos p {
@@ -673,6 +746,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo-left {
@@ -690,14 +764,17 @@ h3 {
 footer {
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: #00111c;
   color: #fff;
   font-weight: 500;
   padding: 25px 0;
 }
 
 footer p {
-  color: #4a5662;
+  color: #494b4b;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 4px 4px 10px 4px;
 }
 
 footer ul {
@@ -715,4 +792,17 @@ footer ul {
 .footer-desc a {
   color: white;
   text-decoration: none;
+}
+footer li {
+  padding: 4px;
+  font-size: 14px;
+}
+.footer-social i {
+  font-size: 14px;
+  margin: 0 15px;
+}
+.coffee i,
+a {
+  font-size: 15px;
+  padding-left: 2px;
 }
