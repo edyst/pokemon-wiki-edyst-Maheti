@@ -44,6 +44,7 @@ nav {
   text-align: left;
   padding: 0 45px 0 0;
   display: inline-block;
+  justify-content: space-between;
 }
 .nav-list li:last-child {
   padding-right: 5px;
@@ -117,7 +118,7 @@ li a {
 }
 
 .btn-reg {
-  background-color: transparent;
+  background-color: #0000;
   color: white;
   padding: 15px 45px;
   border: 2px solid #fff;
@@ -396,7 +397,7 @@ th {
 }
 
 .know-more-section > button {
-  background-color: transparent;
+  background-color: #0000;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -569,9 +570,9 @@ th {
 }
 
 .input-section button {
-  background-color: transparent;
+  background-color: #0000;
   color: white;
-  border: solid 2px white;
+  border: 2px solid white;
   padding: 0 80px;
   font-weight: 500;
   font-size: 14px;
@@ -706,7 +707,7 @@ i {
 }
 
 .know-more2 > button {
-  background-color: transparent;
+  background-color: #0000;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -785,6 +786,7 @@ footer ul {
 .footer-desc {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   flex-direction: column;
   margin: 0 70px;
 }
